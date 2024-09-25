@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data files
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# Logs and outputs
+results/logs/
+results/plots/
+results/reports/
+*.log
+*.out
+
+# pytest cache
+.cache/
+pytest_cache/
+
+# VS Code settings folder
+.vscode/
+
+# Environment files
+.env
