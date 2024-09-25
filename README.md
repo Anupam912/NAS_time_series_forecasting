@@ -98,7 +98,7 @@ train_data, val_data, test_data, scaler = preprocess_data(data, target_column='t
 
 ### **Running the NAS Pipeline**
 
-You can start the NAS process by running [main.py]. You can choose between Reinforcement Learning (RL) and Bayesian Optimization as the search strategy.
+You can start the NAS process by running `main.py`. You can choose between Reinforcement Learning (RL) and Bayesian Optimization as the search strategy.
 
 ```python
 from nas.trainer import run_nas
@@ -111,11 +111,11 @@ if __name__ == '__main__':
 
 ### **Visualizations and Reports**
 
-Once the NAS process completes, performance plots and comparison reports will be saved in the [results/folder]:
+Once the NAS process completes, performance plots and comparison reports will be saved in the `results/folder`:
 
-Performance Plots: [results/plots/architecture_performance.png]
-Hyperparameter Distribution: [results/plots/hyperparameter_distribution.png]
-Comparison Report: [results/reports/architecture_comparison_report.csv]
+Performance Plots: `results/plots/architecture_performance.png`
+Hyperparameter Distribution: `results/plots/hyperparameter_distribution.png`
+Comparison Report: `results/reports/architecture_comparison_report.csv`
 
 ### Running Tests
 
